@@ -1,1 +1,2 @@
-# Websites
+I have created a wesbite for a personal trainer in Miller Place, NY.  Currently the website is about 85% complete.  the form needs to be completed as well as other features to make the website mobile device friendly.  the trainer needed his website to display his services offered, show testimonals, and have a working form for new clients to fill out to contact.  Some photos used are from google images that will be replaced with photos of the trainer and his clients when the website is hosted.  
+
