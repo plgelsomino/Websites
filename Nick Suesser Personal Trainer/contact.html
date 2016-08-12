@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width = device-width, initial-scale = 1">
+	
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,900,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css" type="text/css"/>
+	<link rel="stylesheet" href="kev_edits.css" type="text/css"/>
+    
+        <title>Contact Me</title>
+		
+</head>   
+    
+<body>	
+  <div class="main">
+    <div class="container">
+        <div class="row">
+            <section class="col-xs-12">
+            
+    <!-- This is NAVIGATION MENU -->
+                   <nav class="navbar navbar-default navbar-fixed-top">
+                        <div class="container">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapseMenu" aria-                                              expanded="false">
+                            
+                                    <span class="sr-only">Toggle Navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+
+                            </button>
+                        
+                            <a href="home.html">
+                                <h1 class="logoH1"><strong>Nick Suesser</strong></h1>
+                                <p class="logoPara"><em>Personal Training & Nutrition</em></p>
+                            </a>
+                                
+                            </div> <!-- Closing Navbar Header -->
+                            
+                            <div class="collapse navbar-collapse" id="collapseMenu">
+                                    <ul class = "nav navbar-nav" id="navList">
+                                        <li><a href="about.html">ABOUT</a></li>
+                                        <li><a href="training.html">TRAINING</a></li>
+                                        <li><a href="success.html">SUCCESS STORIES</a></li>
+                                        <li><a class="active" href="contact.html">CONTACT</a></li>
+                                    </ul>
+                            </div>                    
+                        </div> <!-- Closing Div Container -->
+                    </nav> <!-- End of Navigation -->
+            
+                </section>
+            </div> <!-- Closing Row -->
+        </div> <!-- Closing Container -->
+    </div> <!-- close Class main -->
+    
+    <!-- Section for Jumbotron -->
+        <div class="jumbotron pushOffNav" id ="contactJumbo">
+        </div>
+    <!-- End of Jumbotron -->
+    
+    <!-- Form Heading -->
+    <div class="container" id="formCont">
+             <h1 id="contactH1"><strong>Come Train With Me Today!</strong></h1>
+            <h3><em>Fill out the form below and I will contact you shortly</em></h3>
+    </div>
+    
+    <!-- Form -->
+    <div class="container">
+        <form class="form-horizontal col-md-6" id="contactForm" role="form">
+
+            <!-- First Name Field -->
+            <div class="form-group" id="firstNameText">
+                <label class="control-label col-sm-6" for="firstName">First Name:</label>
+                    <div class="col-sm-6">
+                        <input type="firstName" class="form-control" id="firstName" placeholder="Enter First Name">
+                    </div>
+            </div>
+
+            <!-- Last Name Field -->
+            <div class="form-group" id="lastNameText">
+                <label class="control-label col-sm-6" for="lastName">Last Name:</label>
+                    <div class="col-sm-6">          
+                        <input type="lastName" class="form-control" id="lastName" placeholder="Enter Last Name">
+                    </div>
+            </div>
+
+            <!-- Age Field -->
+            <div class="form-group" id="ageText">
+                <label class="control-label col-sm-6" for="age">Age:</label>
+                    <div class="col-sm-6">          
+                        <input type="lastName" class="form-control" id="age" placeholder="Enter Age">
+                    </div>
+            </div>
+
+			 <!-- Phone Number Field -->
+            <div class="form-group" id="phoneText">
+                <label class="control-label col-sm-6" for="phone">Phone #:</label>
+                    <div class="col-sm-6">          
+                        <input type="lastName" class="form-control" id="phone" placeholder="(999) 999-9999">
+                    </div>
+            </div>
+			
+			 <!-- Email Field -->
+            <div class="form-group" id="emailText">
+                <label class="control-label col-sm-6" for="email">E-mail:</label>
+                    <div class="col-sm-6">          
+                        <input type="lastName" class="form-control" id="email" placeholder="imaginaryperson@mail.com">
+                    </div>
+            </div>
+			
+            <!-- Choose Gender Drop Down -->
+            <div class="form-group" id="genderDD">
+                <label class="control-label col-sm-6" for="gender">Choose Gender:</label>
+                    <div class="col-sm-6">
+                        <select class="form-control" id="gender">
+                            <option> </option>
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select>
+                    </div>
+                </div>
+            <!-- Choose Goal Drop Down -->
+            <div class="form-group" id="goalDD">
+                 <label class="control-label col-sm-6" for="goals">Choose Goal:</label>
+                     <div class="col-sm-6">
+                         <select class="form-control" id="goals">
+                           <option> </option>
+                           <option>Lose Weight</option>
+                           <option>Lose Fat, Build Lean Muscle</option>
+                           <option>Strength Training</option>
+                           <option>Event Training</option>
+                           <option>Sports Conditioning</option>
+                           <option>Healthy Lifestyle</option>
+                        </select>
+                    </div>
+            </div>
+            
+            <!-- Choose Workout Days Drop Down -->
+            <div class="form-group" id="workoutDD">
+                 <label class="control-label col-sm-6" for="days">On Average, How many days/week do you workout?</label>
+                    <div class="col-sm-6">
+                         <select class="form-control" id="days">
+                           <option> </option>
+                           <option>None</option>
+                           <option>1-2 days</option>
+                           <option>2-3 days</option>
+                           <option>3-4 days</option>
+                           <option>5-6 days</option>
+                           <option>Everyday</option>
+                        </select>
+                    </div>
+            </div>
+
+            <div class="form-group" id="tendDD">
+                 <label class="control-label col-sm-6" for="tend">At the gym I tend to do...</label>
+                    <div class="col-sm-6">
+                         <select class="form-control" id="tend">
+                           <option> </option>
+                           <option>Steady State Cardio Most of the time</option>
+                           <option>Heavy Static Lifts</option>
+                           <option>Lift With Many Sets, Heart Rate is High</option>
+                           <option>Lift, Then Finish With HIIT or Abs</option>
+                           <option>Take a Class(Cycling, Zumba, Kickboxing)</option>
+                        </select>
+                    </div>
+            </div>
+
+            <!-- Submit Btn -->
+            <div class="form-group">        
+              <div class="col-sm-12">
+                    <!-- Div to take up 6 cols so submit button is on right side-->
+                    <div class="col-md-6">
+                    </div>
+                    <div class="col-md-6">
+                        <button type="button" class="btn btn-success" id="submitBtn">Submit</button>
+                    </div>
+            </div>
+        </form>
+	</div>
+        
+    <!-- Google Map -->
+        <div class="col-sm-6 col-xs-12" id="googleMap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3013.766832928833!2d-72.99403548430702!3d40.94277713140127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e842205e8f4ca5%3A0xbbf1bd1bd1cce9f0!2sPowerhouse+Gym!5e0!3m2!1sen!2sus!4v1464880552692" width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div> <!-- Close Google Map Div -->
+        
+    </div>  <!-- End of Container for form-->  
+   
+    <!-- Section for FOOTER -->
+    <footer class="section section-primary" id = 'footer'>
+        <div class="container col-xs-12">
+            <div class="row footHead">
+                <h4><strong>SIGN UP NOW</strong></h4>
+                    <p class="footHead"><em>Lets Achieve Your Goals Together</em></p>
+                    <a href="contact.html"><button type="button" class="btn btn-success">Lets Go!</button></a>
+            </div>
+        </div>
+    </footer>
+
+<!-- Scripts Connecting to Bootstrap -->    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!-- Google Map Script-->
+<script src="https://maps.googleapis.com/maps/api/js" async defer></script>
+    
+<!-- External jQuery Sheet -->
+<script type"text/javascript" src="customscript.js"></script>    
+    
+</body>
+
+</html>

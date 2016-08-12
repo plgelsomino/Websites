@@ -1,0 +1,43 @@
+jQuery for form validation
+
+function validateForm(id) {
+	if($("#"+id).val()=null || $("#"+id).val()="") {
+			var div = $("#"+id).closest("div");
+			div.addClass("has-error");
+			return false;
+} else {
+	
+	var div = $("#"+id).closest("div");
+	div.removeClass("has-error");
+	div.addClass("has-success");
+	return true;
+}
+
+
+$(document).ready(function() {
+	$("#submitBtn").click(function() {
+			validateForm("firstNameText");
+			
+			validateForm("lastNameText");
+			
+			validateForm("ageText");
+			
+			validateForm("phoneText");
+			
+			validateForm("emailText");
+			
+			validateForm("genderDD")
+			
+			validateForm("goalDD")
+			
+			validateForm("workoutDD");
+			
+			validateForm("feelDD");
+			
+			validateForm("tendDD")
+			
+			$("form#contactForm").submit();
+			
+		});
+	});
+});

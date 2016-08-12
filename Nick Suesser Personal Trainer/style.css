@@ -1,0 +1,300 @@
+<!-- Home Page CSS -->
+html {
+    min-height: 100%;
+}
+
+body{ 
+	padding-top:70px;
+	background-image: url('images/brushed.png');
+    text-align: center;	
+	font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+}
+
+.thumbnail {
+    border: 0 none;
+    box-shadow: none;
+	background-color: #E8E8E8;
+}
+
+.container {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.navbar-default {
+	background-color: #152B39;
+	height:75px;
+}
+
+
+#collapseMenu {
+    float: right;
+}
+
+.navbar-header p {
+    margin-bottom: 0px;   
+}
+
+.logoH1 {
+    margin-bottom: 0px;
+    margin-top: 5px;
+    color: #E8E8E8;
+    text-align: center;
+}
+
+.logoPara {
+    color:  #ffa333;
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+	padding-top: 25px;
+	color: #E8E8E8;
+	font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+	font-size: 1.5em;	
+	background-color:  #152B39;
+}
+
+#homeJumbo {
+    padding-top: 75px;
+    position: relative;
+    height: 700px;
+    background: url(images/tempHome.jpg) no-repeat center center fixed; 
+    background-size: cover;
+}
+
+#jumboMotto {
+	color: #152B39;
+	float: left;
+	text-align: left;
+	margin-top: 200px;
+	margin-left: 100px;
+}
+
+
+.homeServices {
+	padding-top: 15px;
+}
+
+.nameRight {
+    float: right;
+}
+
+#footer {
+	margin-top: 50px;
+    padding-top: 20px;
+	bottom: 0;
+    height: 150px;
+    width: 100%;
+    background-color: #152B39;
+}
+
+hr {
+	border: 0;
+    height: 1.5px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+
+.footHead {
+    color: #E8E8E8;
+    margin: auto;
+    text-align: center;
+    font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+}
+
+.footHead em {
+	color: #ffa333;
+}
+
+h2 {
+    text-align: center;      
+}
+
+h3 {
+    text-align: center;   
+
+}
+
+h4 {
+    margin-bottom: 0px; 
+}
+
+p {
+    text-align: justify;
+    font-size: 1em;
+}
+
+<!-- End of Home Page CSS-->
+
+<!-- Start About Page CSS-->
+.about
+
+.icon {
+	padding-top: 50px;
+}
+
+#nickPic {
+	float: right;
+   margin: 0px 0px 20px 20px;
+}
+
+#aboutP {
+	padding-right: 30px;
+	padding-bottom: 20px;
+}
+
+.img-round {
+    border-radius: 100%;   
+}
+
+.aboutH1 {
+	text-align: center;
+}
+.aboutPara {
+	font-size: 1.3em;
+}
+
+.certH1 {
+	text-align: center;
+}
+
+.certs {
+	text-align: center;
+	padding-top: 15px;
+}
+
+<!-- End of About Page CSS-->
+
+<!-- Start Training Page CSS-->
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.textImg {
+    position: absolute;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    color: #152B39;
+    padding-top: 20px;
+    margin-right: 20px;
+}
+
+.trainImg {
+	opacity: 0.6;
+}
+
+.trainH3:hover {
+	cursor: pointer;
+	color: #ffa333;
+	font-weight: bold;
+}
+
+.trainH3:active {
+	cursor: pointer;
+	color: #ffa333;
+	font-weight: bold;
+}
+.clickedH3 {
+	color: #ffa333;
+	font-weight: bold;
+}
+
+.clickedImgChange {
+	opacity: 1;
+}
+
+.trainH4 {
+	color: #152B39;
+	text-align: justify;	
+}
+
+<!-- End of Training Page CSS-->
+.trainHeading {
+    text-align: center;
+}
+
+<!--Start of Success Page-->
+
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+	padding-bottom: 50px;
+	background-image: url('images/brushed.png');
+}
+
+.sucImage {
+	border: 2px solid #152B39;
+	border-radius: 15px 15px 15px 15px;
+	margin-bottom: 40px;
+}
+
+.slide-content p {
+	margin-bottom: 0px;
+    margin-top: 10px;
+    font-size: 1.3em;
+	padding-bottom: 70px;
+}
+
+.slide-wrapper {
+	margin-top: 7%;
+}
+
+.slideh2 {
+	font-size: 1.5em;
+}
+
+.slideh4 {
+    font-size: 1.5em;
+    text-align: left;   
+}
+
+<!-- End of Success Page-->
+
+
+
+<!-- Start Contact Page CSS-->
+
+#formCont {
+    text-align: center;
+}
+
+#contactJumbo {
+    background: url(images/gym.JPG) no-repeat center center fixed; 
+    background-size: cover;
+    height: 300px;
+}
+
+
+
+#googleMap {
+	float: right;
+}
+
+#contactH1 {
+    text-align: center;
+}
+
+<!-- End of Contact Page CSS-->
+
+
