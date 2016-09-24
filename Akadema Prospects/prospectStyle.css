@@ -1,0 +1,401 @@
+/*Style Sheet CSS */
+body {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+/*Sweet Alert CSS*/
+.sweet-alert .sa-icon.sa-warning {
+    border-color: #d9534f;
+}
+
+.sweet-alert p {
+    font-size: 1.4em;
+}
+
+h2 {
+    color: #d9534f;   
+}
+
+.navbar-brand img {
+    margin-top: -10px;   
+    margin-top: -10px;   
+}
+
+/*NavBar CSS*/
+
+.navbar {
+    background-color:  #262626;   
+}
+
+.navbar-brand img {
+    border: 2px solid #d9534f;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff; 
+    font-size: 1.3em;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #d9534f; 
+    font-size: 1.3em;
+}
+
+/*Active tabs on nav bar*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: Black;
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color: #d9534f;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:active {
+    color: Black;
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color: #d9534f;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+    color: #d9534f;
+    font-weight: 700;
+}   
+
+section {
+    min-height: 300px;   
+}
+
+.container {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+/*Header Section CSS*/
+
+header {
+    padding-top: 75px;
+    height: 650px;
+    width: 100%;
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headerText {
+    margin: 0 auto;  
+    padding-top: 150px;
+}
+
+.name {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    color:  #262626;
+}
+
+.motto {
+    font-size: 1.5em;
+    text-align: center;
+    color:  #262626;
+    font-weight: 700;
+}
+
+.skills {
+    font-size: 1.5em;
+    text-align: center;
+    color:  #262626;
+    font-weight: 700;
+}
+
+/*About Akadema Section CSS*/
+
+.sectionTitle {
+    font-size: 3em;
+    font-weight: bold;
+    padding-top: 20px;
+    margin-bottom: 10;
+}
+
+#aboutBody {
+    font-size: 1.4em;   
+    text-align: justify;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+#accompList {
+    margin-bottom: 50px;   
+}
+
+#accompItems {
+    list-style: none;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+.accompItemRow {
+    margin-bottom: 10px;   
+}
+
+#accompTitle {
+    font-size: 2.7em; 
+    font-weight: bold;
+    color: #c12525;
+}
+
+
+
+/*Meet the Coaches Section CSS*/
+
+#coaches {
+    background-image: url(images/sayagata-400px.png);
+}
+
+.coachImg {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+#coachP {
+    font-size: 1.55em;
+}
+
+.coachImg:hover {
+	cursor: pointer;
+}
+
+.coachImg1 {
+    margin-bottom: 15px;   
+}
+
+/*Teams Section CSS*/
+
+.sponsorItem img {
+    height: 100px;
+    width: 220px;
+}
+
+.teamH2 {
+    font-size: 3em; 
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.teamPara {
+    font-size: 1.2em; 
+    text-align: justify;
+}
+
+.teamMemo {
+    font-size: 1.7em;   
+}
+
+.teamImg {
+    padding-bottom: 50px;
+}
+
+.teamPics {
+    border-radius: 25px;
+    margin: 0 auto; 
+}
+
+#imgPadBtm {
+    padding-bottom: 90px;   
+}
+
+/*make akadema logo disappear for phones*/
+@media only screen and (max-width: 760px){
+    .teamLogo { 
+        display: none; 
+    }
+    
+    .navbar-brand img {
+        width: 105px;
+        height: 63px;
+    }
+    
+      #accompItems {
+        font-size: 1.7em;   
+    }
+}
+
+@media only screen and (max-width: 420px){
+    #accompTitle {
+        font-size: 2em;
+    }
+}
+
+@media (min-width: 1249px) and (max-width: 1250px) {
+   #bs-example-navbar-collapse-1 {
+       display: none !important;
+   }
+}
+
+/*Schedule CSS*/
+#schedule {
+    background-image: url(images/sayagata-400px.png);
+}
+
+.btnDiv {
+    padding-bottom: 50px;   
+}
+
+.scheduleBtn {
+    font-size: 1.5em;
+}
+
+#schedH3 {
+    margin-top: 0;
+}
+
+/*Sponsor Section CSS*/
+
+.sponsorItem img {
+    height: 75px;
+    width: 150px;
+}
+
+.siteBtn {                  /*also for sponsor button and go fund me button*/
+    font-size: 1.5em;
+    font-style: normal;
+}
+
+.sponsorRow3 {
+    margin-bottom: 50px;   
+}
+
+/*Contact Form CSS*/
+
+label {
+     text-align: left;  
+}
+/*Gallery CSS*/
+
+.galleryP {
+    margin-top: 0;
+    font-size: 1.3em;
+}
+
+#gallery {
+    background-image: url(images/sayagata-400px.png); 
+}
+
+#galleryRow {
+    padding-bottom: 50px;  
+}
+
+.galleryImg {
+    border-radius: 25px;  
+    margin: 0 auto; 
+    margin-bottom: 15px;
+   
+}
+
+/*Donate CSS*/
+
+#donate {
+    background-image: url(images/sayagata-400px.png); 
+}
+
+#donateTitle { 
+    font-size: 3em;
+    font-weight: bold;
+    padding-top: 40px;
+    margin-bottom: -20px;
+}
+
+#donateP {
+    font-size: 1.6em;
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.donateRow {
+    padding-bottom: 50px;   
+}
+
+/*Footer CSS*/
+
+footer {
+    background-color: #262626;
+    color: white;
+}
+
+.footHeader {
+    color: #d9534f;
+    font-weight: bold;
+}
+
+.footerP {
+    font-size: 1.15em;   
+}
+
+/*Danny Page*/
+.coachDesc{
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.coachTitleName {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.coachRowPics {
+    padding-bottom: 25px;  
+}
+
+//This is for a element
+btn-more {
+    display: inline-block;
+    border: 2px solid #d9534f;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.fa-fw {
+    margin: 10px 10px 10px 10px;   
+}
+
+/*ICONS - this is outline of a element*/
+.btn-outline {
+    color: #fff;
+    font-size: 25px;
+    overflow: hidden;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn-more, .scroll-top, .scroll-top .btn {
+    width: 50px;
+    height: 50px;
+}
+
+.btn-more:hover {
+    color: #d9534f;
+}
+
+.btn-more:active {
+    color: #d9534f;
+}
+
+.btn-outline:hover {
+    border: none;
+    background-color: #fff;
+}
+
+.btn-outline:active {
+    border: none;
+    background-color: #fff;
+}
+

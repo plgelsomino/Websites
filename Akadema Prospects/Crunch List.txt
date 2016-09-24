@@ -1,0 +1,6 @@
+change color background of nav bar when hovered
+add widgets for facebook, etc..
+add gallery feature when clicked
+make it responsive for all platforms
+find a new cover background
+
